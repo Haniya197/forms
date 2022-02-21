@@ -1,0 +1,25 @@
+.please{
+    margin-top: 15px;
+}
+.bio{
+    margin-top: 10px;
+
+}
+#chose{
+    border-radius: 8px;
+}
+#Location{
+    border-radius: 5px;
+    margin-top: 5px;
+}
+#submit{
+    border-radius: 8px;
+    margin-top: 10px;
+    
+}
+#email{
+    margin-top: 5px;
+}
+#pasword{
+    margin-top: 5px;
+}
