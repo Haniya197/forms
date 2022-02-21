@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="feedback-forms.css">
+</head>
+<body>
+    <h1> My feedback form</h1>
+    <ul>
+        <div class="form">
+           <li>Name <label for="Name"><input id="Names" type="text" name="Names" /></label></li>
+           <li>Email <label for="Email"><input id="email" type="email" name="email" /></label></li>
+           <li>Password <label for="Pass"><input id="pasword" type="password" name="pasword" /></label></li>
+           <li class="please">Please check all the emotions that apply to you:</li>
+        </div>   
+        <ul>
+            <div class="check">
+              <li> <label for="Angry"> Angry<input id="angry" type="checkbox" name="Angry" checked/></label></li>
+              <li> <label for="Sad"> Sad<input id="sad" type="checkbox" name="sad" /></label></li>
+              <li> <label for="Angry"> Angry<input id="angry" type="checkbox" name="Angry" /></label></li>
+              <li> <label for="Ambivalent"> Ambivalent<input id="ambivalent" type="checkbox" name="ambivalent" /></label></li>
+        </div>
+            
+        </ul>
+        <li >How satisfied were you with our services:</li>
+        <ul>
+           <li> <label for="very"> very statisfied<input id="very-statisfied" type="radio" name="very-statisfied" checked/></label></li>
+           <li> <label for="statsfied"> Statsfied<input id="Statsfied" type="radio" name="Statsfied" /></label></li>
+           <li> <label for="Did"> Didn't care<input id="didn't" type="radio" name="didn't" /></label></li>
+           <li> <label for="diss"> Dissatisfied<input id="Dissatisfied" type="radio" name="Dissatisfied" /></label></li>
+           <li> <label for="Dissatis">  Very dissatisfied<input id=" DissatisfY" type="radio" name="DissatisfY" /></label></li>  
+        </ul>
+        <li><label for="furth"> further comments:<textarea name="further" id="further" cols="20" rows="2"></textarea></label></li>
+        <li class="bio">Bio photo: <label for="bio"><input id="photo" type="text" name="photo" /></label> <button id="chose">Choose...</button> </li>
+        <li>Location Select: <label for="LocationSelect"><select name="Location" id="Location">
+            <option>location Visited</option> 
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+        </select></label></li>
+        <li><button id="submit">Submit</button></li>
+
+        
+    </ul>
+    
+</body>
+</html>
